@@ -397,7 +397,7 @@ def calc_week(instant):
     would return POST4.
 
     """
-    season = instant.year
+    season = 2018
 
     if instant.month is 1 or instant.month is 2:
         season -= 1
